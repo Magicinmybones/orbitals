@@ -2,10 +2,10 @@
   "name": "orbitals",
   "version": "1.0.0",
   "private": true,
-  "description": "Orbitals — Dark Moon static experience",
+  "description": "Orbitals — Dark Moon static experience for Cloudflare Workers",
   "scripts": {
-    "dev": "wrangler pages dev public",
-    "deploy": "wrangler pages deploy public --project-name orbitals"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "latest"

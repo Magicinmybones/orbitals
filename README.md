@@ -1,6 +1,6 @@
 # Orbitals — Dark Moon
 
-A static interactive space experience, packaged for Cloudflare Pages.
+A static interactive space experience, packaged for Cloudflare Workers static assets.
 
 ## Local development
 
