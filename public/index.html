@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Orbitals — Dark Moon</title>
+<script src="assets/js/intro.js"></script>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div id="app">
+  <div class="stage" id="scene" aria-hidden="true"><div class="bg"></div><div class="haze"></div><div class="vig"></div></div>
+
+  <div class="stage" id="deck" aria-label="Map carousel, drag to browse" role="region">
+    <svg id="rings" width="1280" height="800" viewBox="0 0 1280 800">
+      <defs>
+        <linearGradient id="gL" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="260">
+          <stop offset="0" stop-color="#e7a57b" stop-opacity=".24"/><stop offset=".45" stop-color="#ef8a4d" stop-opacity=".5"/><stop offset="1" stop-color="#f27a37" stop-opacity=".72"/></linearGradient>
+        <linearGradient id="gG" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="0" y2="260">
+          <stop offset="0" stop-color="#c3d0e0" stop-opacity=".07"/><stop offset="1" stop-color="#c3d0e0" stop-opacity=".32"/></linearGradient>
+      </defs>
+      <g fill="none" id="ringpaths"></g>
+      <g id="ringdots"></g>
+    </svg>
+    <div id="cards"></div>
+    <div id="deckhit"></div>
+  </div>
+
+  <div class="rule" id="rule"></div>
+
+  <div class="grp" id="g-tl"><a class="logo" href="#" aria-label="Orbitals home"><span class="tx" style="left:40.0px;top:37.0px;font-size:37.225px;letter-spacing:7.0px;transform:scaleX(0.7156);">ORBITALS</span></a></div>
+
+  <div class="grp" id="g-tc"><nav class="nav" id="nav" aria-label="Primary">
+    <a class="tx" id="n1" href="#">MISSION</a><a class="tx" id="n2" href="#">RADAR</a><a class="tx" id="n3" href="#">DOCKS</a><a class="tx" id="n4" href="#">UPLINK</a>
+  </nav></div>
+
+  <div class="grp" id="g-tr"><button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><i></i><i></i></button></div>
+  <i id="safe" aria-hidden="true"></i>
+
+  <div class="grp" id="g-r">
+    <button class="arrow next" aria-label="Next map"><svg viewBox="-12 -12 24 24" aria-hidden="true"><path d="M-2.8 -4 L4.4 0 L-2.8 4Z" fill="#eeeeee"/></svg></button>
+    <button class="arrow prev" aria-label="Previous map"><svg viewBox="-12 -12 24 24" aria-hidden="true"><path d="M2.8 -4 L-4.4 0 L2.8 4Z" fill="#eeeeee"/></svg></button>
+  </div>
+
+  <div class="grp" id="g-bl">
+    <div class="shade"></div>
+    <i class="odot"></i>
+    <div class="mask" id="m-top" style="left:0;top:500px;width:1280px;height:40px"><span class="tx disp" id="t-top" style="left:156.0px;top:4.0px;font-size:34.3px;letter-spacing:0.4px;transform:scaleX(0.75);">TOP</span></div>
+    <div class="pill" id="pill"></div>
+    <div class="mask" id="m-tag" style="left:0;top:509.5px;width:1280px;height:24px"><span class="tx" id="t-tag" style="left:212.0px;top:7.5px;font-size:12.8px;letter-spacing:0.291px;;font-weight:500;color:#fbfcff">STARVOYAGERS</span></div>
+    <div class="mask" id="m-title" style="left:0;top:540px;width:1280px;height:112px"><span class="tx disp" id="t-title" style="left:126.0px;top:-7.0px;font-size:130px;letter-spacing:1.5px;transform:scaleX(0.6988);">DARK MOON</span></div>
+    <div class="mask" id="m-desc" style="left:0;top:652px;width:1280px;height:40px"><span class="tx desc" id="t-desc" style="left:127.0px;top:7.0px;font-size:12.6px;letter-spacing:0.475px;">DARK MOON IS A SKY PLATFORM BUILT FOR THE FAR, WITH SUPPORT FOR ORBITALS</span></div>
+    <a class="btn" href="#" id="btn"><span class="tx" style="margin:-710.6px 0 0 -127.7px;font-weight:500;left:180.0px;top:726.0px;font-size:12.8px;letter-spacing:0.4px;">ASCEND</span></a>
+  </div>
+
+  <div class="grp" id="g-br">
+    <a class="see" href="#"><span class="tx mono" style="left:1020.0px;top:666.0px;font-size:14px;letter-spacing:0.762px;;font-weight:500">SEE ALL MAPS</span><svg viewBox="0 0 8 9"><path d="M0 0 L8 4.5 L0 9Z" fill="#fff"/></svg></a>
+    <div id="thumbs"></div>
+  </div>
+
+  <div class="dcur" id="dcur" aria-hidden="true"><svg viewBox="0 0 26 12"><path d="M0.5 6 L9 0.8 L9 11.2Z M25.5 6 L17 0.8 L17 11.2Z" fill="#fff"/></svg></div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
