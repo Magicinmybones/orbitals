@@ -1,9 +1,9 @@
-@font-face{font-family:'Saira ExtraCondensed';font-weight:800;font-style:normal;font-display:block;src:url(../fonts/saira-extra-condensed-800.woff2) format('woff2');}
-@font-face{font-family:'Saira ExtraCondensed';font-weight:900;font-style:normal;font-display:block;src:url(../fonts/saira-extra-condensed-900.woff2) format('woff2');}
-@font-face{font-family:'DM Sans';font-weight:500;font-style:normal;font-display:block;src:url(../fonts/dm-sans-500.woff2) format('woff2');}
-@font-face{font-family:'DM Mono';font-weight:400;font-style:normal;font-display:block;src:url(../fonts/dm-mono-400.woff2) format('woff2');}
-@font-face{font-family:'DM Mono';font-weight:500;font-style:normal;font-display:block;src:url(../fonts/dm-mono-500.woff2) format('woff2');}
-:root{--i-bg:url(../images/background.webp);--i-tower:url(../images/tower.webp);--i-dish:url(../images/dish.webp);--i-habitat:url(../images/habitat.webp);--i-crater:url(../images/crater.webp);--i-crescent:url(../images/crescent.webp);}
+@font-face{font-family:'Saira ExtraCondensed';font-weight:800;font-style:normal;font-display:block;src:url(/assets/fonts/saira-extra-condensed-800.woff2) format('woff2');}
+@font-face{font-family:'Saira ExtraCondensed';font-weight:900;font-style:normal;font-display:block;src:url(/assets/fonts/saira-extra-condensed-900.woff2) format('woff2');}
+@font-face{font-family:'DM Sans';font-weight:500;font-style:normal;font-display:block;src:url(/assets/fonts/dm-sans-500.woff2) format('woff2');}
+@font-face{font-family:'DM Mono';font-weight:400;font-style:normal;font-display:block;src:url(/assets/fonts/dm-mono-400.woff2) format('woff2');}
+@font-face{font-family:'DM Mono';font-weight:500;font-style:normal;font-display:block;src:url(/assets/fonts/dm-mono-500.woff2) format('woff2');}
+:root{--i-bg:url(/assets/images/background.webp);--i-tower:url(/assets/images/tower.webp);--i-dish:url(/assets/images/dish.webp);--i-habitat:url(/assets/images/habitat.webp);--i-crater:url(/assets/images/crater.webp);--i-crescent:url(/assets/images/crescent.webp);}
 :root{--orange:#f47a3b;--u:1;--s:1;}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{width:100%;height:100%;overflow:hidden;background:#03060b;}
